@@ -19,3 +19,7 @@ Pods/
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
+
+
+# AI agent / Codex context
+CODEx_CONTEXT.md
