@@ -15,11 +15,6 @@ Package.resolved
 # Pods (if ever used)
 Pods/
 
-# Fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-
-
-# AI agent / Codex context
+# AI context files
 CODEx_CONTEXT.md
+CODEx_TODO.md

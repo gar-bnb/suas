@@ -27,22 +27,41 @@
 		26F587A02EBA601E001F5C35 /* suas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F587AF2EBA601F001F5C35 /* suasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F587B92EBA601F001F5C35 /* suasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F587E12EBA70B8001F5C35 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2662CFAC2EBB686000F867C3 /* Exceptions for "Sources" folder in "suas" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Utils/Info.plist,
+			);
+			target = 26F5879F2EBA601E001F5C35 /* suas */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		26F587A22EBA601E001F5C35 /* suas */ = {
+		26F588002EBA8000001F5C35 /* Sources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = suas;
+			exceptions = (
+				2662CFAC2EBB686000F867C3 /* Exceptions for "Sources" folder in "suas" target */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		26F587B22EBA601F001F5C35 /* suasTests */ = {
+		26F588012EBA8000001F5C35 /* Assets.xcassets */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = suasTests;
+			path = Assets.xcassets;
 			sourceTree = "<group>";
 		};
-		26F587BC2EBA601F001F5C35 /* suasUITests */ = {
+		26F588022EBA8000001F5C35 /* Tests/Unit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = suasUITests;
+			path = Tests/Unit;
+			sourceTree = "<group>";
+		};
+		26F588032EBA8000001F5C35 /* Tests/UI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tests/UI;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +94,11 @@
 		26F587972EBA601E001F5C35 = {
 			isa = PBXGroup;
 			children = (
-				26F587A22EBA601E001F5C35 /* suas */,
-				26F587B22EBA601F001F5C35 /* suasTests */,
-				26F587BC2EBA601F001F5C35 /* suasUITests */,
+				26F587E12EBA70B8001F5C35 /* README.md */,
+				26F588002EBA8000001F5C35 /* Sources */,
+				26F588022EBA8000001F5C35 /* Tests/Unit */,
+				26F588032EBA8000001F5C35 /* Tests/UI */,
+				26F588012EBA8000001F5C35 /* Assets.xcassets */,
 				26F587A12EBA601E001F5C35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,7 +129,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				26F587A22EBA601E001F5C35 /* suas */,
+				26F588002EBA8000001F5C35 /* Sources */,
 			);
 			name = suas;
 			packageProductDependencies = (
@@ -131,7 +152,7 @@
 				26F587B12EBA601F001F5C35 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				26F587B22EBA601F001F5C35 /* suasTests */,
+				26F588022EBA8000001F5C35 /* Tests/Unit */,
 			);
 			name = suasTests;
 			packageProductDependencies = (
@@ -154,7 +175,7 @@
 				26F587BB2EBA601F001F5C35 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				26F587BC2EBA601F001F5C35 /* suasUITests */,
+				26F588032EBA8000001F5C35 /* Tests/UI */,
 			);
 			name = suasUITests;
 			packageProductDependencies = (
@@ -400,6 +421,7 @@
 				DEVELOPMENT_TEAM = NDXKAN4GV7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -432,6 +454,7 @@
 				DEVELOPMENT_TEAM = NDXKAN4GV7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
